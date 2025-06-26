@@ -1,0 +1,28 @@
+body { 
+    font-family: Arial; 
+    background: #f0f0f0; 
+    padding: 20px; }
+    
+#todo-container { 
+    max-width: 400px; 
+    margin: auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 10px; }
+    
+ul { 
+    list-style-type: none; 
+    padding: 0; }
+
+li { padding: 10px; 
+    background: #eee; 
+    margin-bottom: 10px; 
+    display: flex; 
+    justify-content: space-between; }
+
+button.delete {
+    background: red; 
+    color: white; 
+    border: none; 
+    padding: 5px; 
+    cursor: pointer; }
